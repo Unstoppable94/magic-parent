@@ -1,0 +1,18 @@
+<project>
+    <parent>
+        <groupId>com.magic</groupId>
+        <artifactId>magic-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>magic-spring-boot-starter</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.magic</groupId>
+            <artifactId>magic-spring-boot-autoconfigure</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+</project>
