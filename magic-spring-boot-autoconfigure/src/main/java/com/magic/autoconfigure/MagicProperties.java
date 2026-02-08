@@ -5,10 +5,17 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 @ConfigurationProperties(prefix = "magic")
 public class MagicProperties {
 
+    /**
+     * 是否开启注入
+     */
     private boolean enabled = true;
-
+    /**
+     * 前缀拼接
+     */
     private String prefix = "Hi";
-
+    /**
+     * 后缀拼接
+     */
     private String suffix = "!";
 
     public boolean isEnabled() {
